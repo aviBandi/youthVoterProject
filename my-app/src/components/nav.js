@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react';
 
+import logo from "../images/logo.png"
 
 const Nav = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -17,12 +18,19 @@ const Nav = () => {
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Your Company</span>
-                            <img
-                                className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                alt=""
-                            />
+                            <div className='flex gap-6 items-center'>
+
+                                <div className="-my-6 divide-y">
+                                    <div className="space-y-2 py-6">
+                                        <h6 className="text-xl font-semibold leading-6 text-red-200">Youth Voter project</h6>
+                                    </div>
+                                </div>
+
+                                <img
+                                    className="h-12 w-auto"
+                                    src={logo}
+                                    alt="" />
+                            </div>
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -40,16 +48,12 @@ const Nav = () => {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                            <a key={item.name} href={item.href} className="text-xl font-semibold leading-6 text-red-200">
                                 {item.name}
                             </a>
                         ))}
                     </div>
-                    <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                            Log in <span aria-hidden="true">&rarr;</span>
-                        </a>
-                    </div>
+
                 </nav>
                 <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                     <div className="fixed inset-0 z-50" />
