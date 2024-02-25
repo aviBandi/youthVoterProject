@@ -35,7 +35,7 @@ export default function Hero() {
                         </div> */}
                     </div>
                     <div className="text-center">
-                        <h1 className="text-4xl font-bold tracking-tight text-indigo-600 sm:text-6xl z-10">
+                        <h1 className="text-4xl font-bold tracking-tight text-blue-500 sm:text-6xl z-10">
                             The Youth Voter Project
                         </h1>
                         <p className="mt-6 text-xl font-bold leading-8 text-white">
@@ -44,11 +44,11 @@ export default function Hero() {
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
                                 href="#"
-                                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
-                                Register to Vote
+                                Register to Vote <span aria-hidden="true">→</span>
                             </a>
-                            <a href="#" className="rounded-md border-2 border-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-indigo-600  shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                            <a href="#" className="rounded-md border-2 border-blue-600 bg-neutral-50 px-3.5 py-2.5 text-sm font-semibold text-blue-600 shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                                 Resources <span aria-hidden="true">→</span>
                             </a>
                         </div>

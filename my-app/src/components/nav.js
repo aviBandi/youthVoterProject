@@ -22,7 +22,7 @@ const Nav = () => {
 
                                 <div className="-my-6 divide-y">
                                     <div className="space-y-2 py-6">
-                                        <h6 className="text-xl font-semibold leading-6 text-red-200">Youth Voter project</h6>
+                                        <h6 className="text-xl font-semibold leading-6 text-red-200">The Youth Voter Project</h6>
                                     </div>
                                 </div>
 
@@ -40,7 +40,8 @@ const Nav = () => {
                             onClick={() => setMobileMenuOpen(true)}
                         >
                             <span className="sr-only">Open main menu</span>
-                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#ef4444" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
 
@@ -63,7 +64,7 @@ const Nav = () => {
                                 <span className="sr-only">Your Company</span>
                                 <img
                                     className="h-8 w-auto"
-                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                    src={logo}
                                     alt=""
                                 />
                             </a>
@@ -89,14 +90,7 @@ const Nav = () => {
                                         </a>
                                     ))}
                                 </div>
-                                <div className="py-6">
-                                    <a
-                                        href="#"
-                                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                    >
-                                        Log in
-                                    </a>
-                                </div>
+
                             </div>
                         </div>
                     </Dialog.Panel>
