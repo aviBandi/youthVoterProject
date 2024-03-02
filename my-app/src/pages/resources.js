@@ -1,4 +1,5 @@
 import Nav from "../components/nav"
+import heroPic from "../images/heroPic.png"
 import ResourcesCard from "../components/resourcesCard"
 const resouces = () => {
 
@@ -14,9 +15,8 @@ const resouces = () => {
 
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                    <ResourcesCard />
-                    <ResourcesCard />
-                    <ResourcesCard />
+                    <ResourcesCard/>
+
                 </div>
             </div>
         </div>
