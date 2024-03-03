@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       
       <section>
-        < Resources />
+        {/* < Resources /> */}
+        <Home />
       </section>
 
     </div>
