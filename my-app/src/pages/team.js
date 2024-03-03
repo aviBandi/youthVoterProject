@@ -12,7 +12,7 @@ const team = () => {
                         <h1 className='text-red-600 font-semibold text-4xl font-palanquin text-center'>Meet the Team</h1>
                         <h3 className='pt-3 text-xl text-center text-gray-700'>Meet the group of dedicated high school seniors looking to make an impact on democracy!</h3>
 
-                        <div className='grid grid-cols-1 sm:grid-cols-3 gap-5'>
+                        <div className='pt-7 grid grid-cols-1 sm:grid-cols-3 gap-5'>
                             <TeamCard />
                             <TeamCard />
                             <TeamCard />

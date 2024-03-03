@@ -12,8 +12,8 @@ const teamCard = () => {
             </div>
             <div className='flex justify-between'>
                 <div>
-                    <h1>Markus Wessman</h1>
-                    <h3>Executive Director</h3>
+                    <h1 className='text-lg font-semibold text-blue-500'>Markus Wessman</h1>
+                    <h3 className='text-md text-gray-700'>Executive Director</h3>
                 </div>
                 <div className='flex gap-2'>
                     <a href="https://instagram.com/trojanrobotics2264?utm_source=qr" target="_blank" class="text-gray-400 hover:text-gray-500">
