@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       
       <section>
-        {/* < Team /> */}
+        < Team />
         {/* < Resources /> */}
-        <Home />
+        {/* <Home /> */}
       </section>
 
     </div>
