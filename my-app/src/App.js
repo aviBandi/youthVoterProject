@@ -9,9 +9,8 @@ function App() {
       
       <section>
         {/* < Team /> */}
-        < Contact />
         {/* < Resources /> */}
-        {/* <Home /> */}
+        <Home />
       </section>
 
     </div>
