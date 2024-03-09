@@ -3,6 +3,7 @@ import Hero from "../sections/hero"
 import Mission from "../sections/mission"
 import ResourcesHome from "../sections/resourcesHome"
 import Impacts from "../sections/impacts"
+import GetStarted from "../sections/getStarted"
 const home = () => {
     return (
         <div className="">
@@ -11,6 +12,7 @@ const home = () => {
             <Mission />
             <ResourcesHome />
             <Impacts />
+            <GetStarted />
             <br></br>
             <br></br>
             <br></br>
