@@ -2,8 +2,8 @@ import React from 'react'
 import testing from "../images/heroPic.png"
 const impacts = () => {
     return (
-        <div className='max-w-6xl mx-auto pt-8'>
-            <h1 className='text-blue-600 text-4xl font-bold text-center pb-5'>Our Impacts</h1>
+        <div className='max-w-7xl mx-auto pt-8'>
+            {/* <h1 className='text-blue-600 text-4xl font-bold text-center pb-5'>Our Impacts</h1> */}
             <div className='grid grid-cols-1 sm:grid-cols-3 gap-5'>
                 <div className='border-[2px] border-black px-4 py-4 rounded-xl shadow-lg'>
                     <p className='text-slate-gray font-montserrat text-md'>
