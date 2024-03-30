@@ -5,6 +5,7 @@ import ResourcesHome from "../sections/resourcesHome"
 import Impacts from "../sections/impacts"
 import GetStarted from "../sections/getStarted"
 import Stats from "../sections/stats"
+import Footer from "../sections/footer"
 import TrustedBy from "../sections/trustedby"
 const home = () => {
     return (
@@ -17,6 +18,7 @@ const home = () => {
             {/* <ResourcesHome /> */}
             <Impacts />
             <GetStarted />
+            <Footer />
             <br></br>
             <br></br>
             <br></br>
