@@ -11,10 +11,10 @@ const home = () => {
         <div className="">
             <Nav />
             <Hero />
-            <TrustedBy />
             <Mission />
-            <Stats />
-            <ResourcesHome />
+            <TrustedBy />
+            {/* <Stats /> */}
+            {/* <ResourcesHome /> */}
             <Impacts />
             <GetStarted />
             <br></br>
