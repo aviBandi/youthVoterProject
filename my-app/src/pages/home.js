@@ -14,11 +14,12 @@ const home = () => {
             <Hero />
             <Mission />
             <TrustedBy />
+            <ResourcesHome />
+
             {/* <Stats /> */}
-            {/* <ResourcesHome /> */}
-            <Impacts />
+            {/* <Impacts /> */}
             <GetStarted />
-            <Footer />
+            {/* <Footer /> */}
             <br></br>
             <br></br>
             <br></br>

@@ -4,11 +4,11 @@ const features = [
 
 
   {
-    name: 'Push to deploy.',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: CheckIcon,
+    name: 'SSL certificates.',
+    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    icon: DocumentCheckIcon,
   },
+
   {
     name: 'SSL certificates.',
     description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
@@ -20,7 +20,7 @@ const features = [
 export default function Example() {
   return (
     <div className="overflow-hidden bg-white pt-24 sm:pt-16">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
@@ -41,7 +41,7 @@ export default function Example() {
                 ))}
               </dl>
               <div>
-
+{/* 
                 <dl className="grid grid-cols-1 pt-7 lg:grid-cols-3">
                     <div className="mx-auto flex max-w-xs flex-col gap-y-4">
                       <h2 className="text-base leading-7 text-gray-600">Schools Connected</h2>
@@ -65,7 +65,7 @@ export default function Example() {
                     </div>
 
 
-                </dl>
+                </dl> */}
 
 
               </div>

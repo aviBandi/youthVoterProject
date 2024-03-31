@@ -1,7 +1,7 @@
 export default function TrustedBy() {
     return (
       <div className="bg-white py-12 sm:py-6">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl px-6 lg:px-8">
           {/* <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
             Trusted by the Minnesota's Largest High Schools
           </h2> */}
