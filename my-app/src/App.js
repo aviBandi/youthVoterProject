@@ -10,7 +10,7 @@ function App() {
       <section>
         {/* < Team /> */}
         {/* < Resources /> */}
-        {/* <Home /> */}
+        <Home />
       </section>
 
     </div>
