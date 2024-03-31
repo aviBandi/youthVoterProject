@@ -21,15 +21,15 @@ const features = [
 
 export default function Example() {
     return (
-        <div className="bg-white py-24 sm:py-32">
+        <div className="bg-white py-12 sm:py-16">
             <div className="mx-auto max-w-5xl px-6 lg:px-8">
                 <div className="mx-auto lg:text-center">
                     <div className='flex items-center'>
-                        <hr className="h-0.5 mt-2 rounded-2xl bg-red-600 flex-1 mx-4"></hr>
+                        <hr className="h-0.5 mt-2 rounded-2xl bg-red-600 flex-1 mr-4"></hr>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             Resources
                         </p>
-                        <hr className="h-0.5 mt-2 rounded-2xl bg-red-600 flex-1 mx-4"></hr>
+                        <hr className="h-0.5 mt-2 rounded-2xl bg-red-600 flex-1 ml-4"></hr>
                     </div>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                         Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum

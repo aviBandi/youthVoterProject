@@ -2,10 +2,10 @@ import Nav from "../components/nav"
 import Hero from "../sections/hero"
 import Mission from "../sections/mission"
 import ResourcesHome from "../sections/resourcesHome"
-import Impacts from "../sections/impacts"
 import GetStarted from "../sections/getStarted"
 import Stats from "../sections/stats"
 import Footer from "../sections/footer"
+import Impacts from "../sections/impacts"
 import TrustedBy from "../sections/trustedby"
 const home = () => {
     return (
@@ -14,11 +14,8 @@ const home = () => {
             <Hero />
             <Mission />
             <TrustedBy />
-            <div className="bg-red-500">
-                <ResourcesHome />
-            </div>
-            {/* <Stats /> */}
-            {/* <Impacts /> */}
+            <ResourcesHome />
+            <Impacts />
             <GetStarted />
             {/* <Footer /> */}
             <br></br>
