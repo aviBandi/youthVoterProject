@@ -14,8 +14,9 @@ const home = () => {
             <Hero />
             <Mission />
             <TrustedBy />
-            <ResourcesHome />
-
+            <div className="bg-red-500">
+                <ResourcesHome />
+            </div>
             {/* <Stats /> */}
             {/* <Impacts /> */}
             <GetStarted />
