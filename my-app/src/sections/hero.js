@@ -48,7 +48,7 @@ export default function Hero() {
                             >
                                 Register to Vote <span aria-hidden="true">→</span>
                             </a>
-                            <a href="#" className="rounded-md border-2 border-blue-600 bg-neutral-50 px-3.5 py-2.5 text-sm font-semibold text-blue-600 shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                            <a href="/resources" className="rounded-md border-2 border-blue-600 bg-neutral-50 px-3.5 py-2.5 text-sm font-semibold text-blue-600 shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                                 Resources <span aria-hidden="true">→</span>
                             </a>
                         </div>

@@ -36,9 +36,9 @@ const Team = () => {
   ];
 
   return (
-    <div className='bg-blue-50 overflow-auto'>
+    <div className='bg-blue-50 overflow-auto '>
       <NavOther />
-      <div className="container my-24 mx-auto md:px-6 max-w-4xl">
+      <div className="container my-24 mx-auto px-5 lg:px-0 max-w-4xl">
         <section className="mb-32 ">
           <div className='my-32 '>
             <div className='flex items-center'>
