@@ -38,7 +38,7 @@ const Team = () => {
   return (
     <div className='bg-blue-50 overflow-auto '>
       <NavOther />
-      <div className="container my-24 mx-auto px-5 lg:px-0 max-w-4xl">
+      <div className="container my-24 mx-auto px-8 lg:px-0 max-w-4xl">
         <section className="mb-32 ">
           <div className='my-32 '>
             <div className='flex items-center'>
@@ -68,8 +68,8 @@ const Team = () => {
                   </div>
                   <div className="p-6">
                     <h5 className="mb-4 text-lg font-bold text-blue-300">{member.name}</h5>
-                    <p className="mb-6">{member.title}</p>
-                    <ul className="mx-auto flex list-inside justify-center">
+                    <p className="mb-6 text-white">{member.title}</p>
+                    <ul className="mx-auto flex list-inside justify-left">
                       <a href={member.linkedinLink} className="px-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
