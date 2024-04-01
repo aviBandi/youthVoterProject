@@ -24,10 +24,21 @@ const impacts = () => {
     ]
 
     return (
-        <div>
+        <div className='bg-blue-100 overflow-hidden'>
             <div class="container my-24 mx-auto md:px-6 max-w-5xl">
                 <section class="mb-32 text-center">
-                    <h2 class="mb-12 text-3xl font-bold">Testimonials</h2>
+                    {/* <div className='flex items-center'>
+                        <hr className="h-0.5 mt-2 rounded-2xl bg-blue-600 flex-1 mr-4"></hr>
+                        <h2 class="mb-12 text-3xl font-bold text-black">Impacts we have Made!</h2>
+                        <hr className="h-0.5 mt-2 rounded-2xl bg-blue-600 flex-1 ml-4"></hr>
+                    </div> */}
+                    <div className='flex items-center pb-12'>
+                        <hr className="h-0.5 mt-2 rounded-2xl bg-blue-600 flex-1 mr-4"></hr>
+                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                            Impacts we have Made!
+                        </p>
+                        <hr className="h-0.5 mt-2 rounded-2xl bg-blue-600 flex-1 ml-4"></hr>
+                    </div>
                     <div class="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
 
                         {
@@ -38,17 +49,16 @@ const impacts = () => {
                                             <img src={testimonial.image}
                                                 class="w-32 rounded-full shadow-lg dark:shadow-black/20" />
                                         </div>
-                                        <h5 class="mb-2 text-lg font-bold">{testimonial.name}</h5>
-                                        <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
+                                        <h5 class="mb-2 text-lg font-bold text-gray-700">{testimonial.name}</h5>
+                                        <h3 class="mb-4 font-semibold text-blue-600">
                                             {testimonial.role}
-                                        </h6>
-                                        <p class="mb-4">
-                                            {testimonial.testimonial}
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="inline-block w-6">
-                                                <path fill="currentColor"
-                                                    d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z" />
-                                            </svg>
-                                        </p>
+                                        </h3>
+                                        <div class="mb-4">
+                                            <p className='text-gray-600'>
+                                                {testimonial.testimonial}
+                                            </p>
+
+                                        </div>
 
                                     </div>
                                 </div>
