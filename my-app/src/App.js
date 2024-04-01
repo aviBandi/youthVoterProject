@@ -12,7 +12,7 @@ function App() {
         {/* <Team2 /> */}
         {/* < Team /> */}
         {/* < Resources /> */}
-        <Home />
+        {/* <Home /> */}
       </section>
 
     </div>
