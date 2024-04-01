@@ -1,4 +1,4 @@
-import Nav from "../components/nav"
+import NavHome from "../components/navHome"
 import Hero from "../sections/hero"
 import Mission from "../sections/mission"
 import ResourcesHome from "../sections/resourcesHome"
@@ -10,7 +10,7 @@ import TrustedBy from "../sections/trustedby"
 const home = () => {
     return (
         <div className="">
-            <Nav />
+            <NavHome/>
             <Hero />
             <Mission />
             <TrustedBy />

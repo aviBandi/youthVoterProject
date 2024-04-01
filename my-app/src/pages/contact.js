@@ -15,7 +15,7 @@
 import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'
-import Nav from '../components/nav'
+import NavOther from "../components/navOther"
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -25,12 +25,12 @@ export default function Contact() {
 
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
-        < Nav />
+      <NavOther />
 
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-red-500 sm:text-4xl">Contact Us</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-        We'd love to hear from you! Send us a message and we'll get back to you as soon as possible.
+          We'd love to hear from you! Send us a message and we'll get back to you as soon as possible.
         </p>
       </div>
       <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">

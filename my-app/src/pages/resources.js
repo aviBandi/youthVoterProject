@@ -1,4 +1,4 @@
-import Nav from "../components/nav"
+import NavOther from "../components/navOther"
 import heroPic from "../images/heroPic.png"
 import ResourcesCard from "../components/resourcesCard"
 import Footer from "../sections/footer"
@@ -7,7 +7,7 @@ const resouces = () => {
     return (
         <div className="bg-blue-50 overflow-auto ">
 
-            <Nav />
+            <NavOther />
             <div className='max-w-5xl mx-auto mb-36 px-6 sm:px-0'>
 
                 <div className='mt-32 mb-16 '>

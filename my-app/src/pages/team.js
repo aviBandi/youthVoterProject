@@ -1,6 +1,5 @@
-
 import React from 'react';
-import Nav from '../components/nav';
+import NavOther from '../components/navOther';
 import Footer from '../sections/footer';
 const Team = () => {
   const teamMembers = [
@@ -38,7 +37,7 @@ const Team = () => {
 
   return (
     <div className='bg-blue-50 overflow-auto'>
-      <Nav />
+      <NavOther />
       <div className="container my-24 mx-auto md:px-6 max-w-4xl">
         <section className="mb-32 ">
           <div className='my-32 '>
