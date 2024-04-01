@@ -3,12 +3,25 @@ import Contact from './pages/contact';
 import Home from './pages/home';
 import Resources from './pages/resources';
 import Team from './pages/team';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-        {/* < Team /> */}
-        {/* < Resources /> */}
-        {/* <Home /> */}
+      {/* < Team /> */}
+      {/* < Resources /> */}
+      {/* <Home /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+
+
+
     </div>
   );
 }

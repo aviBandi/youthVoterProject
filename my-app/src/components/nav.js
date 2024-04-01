@@ -7,17 +7,17 @@ import logo from "../images/logo.png"
 const Nav = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     const navigation = [
-        { name: 'Home', href: '#' },
-        { name: 'Resources', href: '#' },
-        { name: 'Team', href: '#' },
-        { name: 'Contact', href: '#' },
+        { name: 'Home', href: '/home' },
+        { name: 'Resources', href: '/resources' },
+        { name: 'Team', href: '/team' },
+        { name: 'Contact', href: '/contact' },
     ]
     return (
         <div>
             <header className="absolute inset-x-0 top-0 z-50">
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
-                        <a href="#" className="-m-1.5 p-1.5">
+                        <a href={"#"} className="-m-1.5 p-1.5">
                             <div className='flex gap-6 items-center'>
 
                                 <div className="-my-6 divide-y">
@@ -49,9 +49,9 @@ const Nav = () => {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-xl font-semibold leading-6 text-red-200">
-                                {item.name}
-                            </a>
+                                <a key={item.name} href={item.href} className="text-xl font-semibold leading-6 text-red-200">
+                                    {item.name}
+                                </a>
                         ))}
                     </div>
 
