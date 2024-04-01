@@ -6,13 +6,9 @@ import Team from './pages/team';
 function App() {
   return (
     <div className="App">
-      
-      <section>
         {/* < Team /> */}
         {/* < Resources /> */}
         {/* <Home /> */}
-      </section>
-
     </div>
   );
 }

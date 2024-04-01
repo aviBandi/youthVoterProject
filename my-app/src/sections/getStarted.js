@@ -16,7 +16,7 @@ export default function Example() {
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a
                   href="#"
-                  className="rounded-md bg-red-400 px-3.5 py-2.5 text-sm font-semibold text-gray-700 shadow-sm hover:bg-gray-100 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className="rounded-md border border-red-600 border-[2px] bg-red-600 text-white px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-gray-100 transition hover:text-gray-700"
                 >
                   Get Started Here!
                 </a>

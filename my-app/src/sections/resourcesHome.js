@@ -49,7 +49,7 @@ export default function ResourcesHome() {
                                         {feature.name}
                                     </dt>
                                     {/* <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd> */}
-                                    <h1 className=' border border-red-600 text-gray-700 rounded-2xl border-[2px] inline-block px-4 py-1'>
+                                    <h1 className='border border-red-600 hover:bg-white hover:text-gray-700 rounded-xl border-[2px] inline-block px-4 py-1 bg-red-600 text-white transition-all'>
                                         {feature.buttonText}
                                     </h1>
                                 </div>
