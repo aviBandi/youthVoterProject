@@ -74,7 +74,7 @@ const Team = () => {
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
-                          className="h-3.5 w-3.5 text-primary dark:text-primary-300"
+                          className="h-3.5 w-3.5 text-red-400"
                         >
                           <path
                             fill="currentColor"
@@ -86,7 +86,7 @@ const Team = () => {
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
-                          className="h-4 w-4 text-primary dark:text-primary-400"
+                          className="h-4 w-4 text-red-400"
                         >
                           <path
                             fill="currentColor"
