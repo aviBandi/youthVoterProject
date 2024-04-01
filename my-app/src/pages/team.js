@@ -56,7 +56,7 @@ const Team = () => {
           <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
             {teamMembers.map((member, index) => (
               <div key={index} className="w-full pb-32">
-                <div className="block h-full rounded-lgbg rounded-xl dark:bg-neutral-700">
+                <div className="block h-full rounded-lgbg rounded-xl bg-neutral-700">
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
