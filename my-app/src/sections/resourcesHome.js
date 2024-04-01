@@ -19,7 +19,7 @@ const features = [
     },
 ]
 
-export default function Example() {
+export default function ResourcesHome() {
     return (
         <div className="bg-white py-12 sm:py-16">
             <div className="mx-auto max-w-5xl px-6 lg:px-8">

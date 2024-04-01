@@ -16,7 +16,7 @@ const home = () => {
             <TrustedBy />
             <ResourcesHome />
             <Impacts />
-            <GetStarted />
+            {/* <GetStarted /> */}
             {/* <Footer /> */}
             <br></br>
             <br></br>
