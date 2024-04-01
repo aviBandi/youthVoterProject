@@ -9,10 +9,10 @@ function App() {
     <div className="App">
       
       <section>
-        <Team2 />
+        {/* <Team2 /> */}
         {/* < Team /> */}
         {/* < Resources /> */}
-        <Home />
+        {/* <Home /> */}
       </section>
 
     </div>
