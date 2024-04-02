@@ -19,7 +19,7 @@ export default function Footer() {
 
           <nav>
             <h6 className="footer-title">Pages</h6>
-            <a className="link link-hover">Home</a>
+            <a className="link link-hover text-white">Home</a>
             <a className="link link-hover">Resources</a>
             <a className="link link-hover">Team</a>
             <a className="link link-hover">Contact</a>
