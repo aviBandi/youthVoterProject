@@ -1,3 +1,5 @@
+
+
 const Testimonials = [
     {
         name: 'Scoootty Giengier',
@@ -32,19 +34,19 @@ const TeamMembers = [
     {
         name: "Avinash Bandi",
         title: "Executive Director",
-        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        imageLink: "https://media.licdn.com/dms/image/D5603AQHTDaqyaUT3PA/profile-displayphoto-shrink_800_800/0/1689619678004?e=1717632000&v=beta&t=IfexRgUIRaIrF14lpHl1Pn3YXeS5ylsx9G5YOEUGclY",
+        linkedinLink: "https://linkedin.com/markuswessman"
+    },
+    {
+        name: "Taras Sarazhyznskyy",
+        title: "Executive Director",
+        imageLink: "https://media.licdn.com/dms/image/D5603AQGtnouqPxRqFQ/profile-displayphoto-shrink_800_800/0/1680888559851?e=1717632000&v=beta&t=gQY6dTnjFGsjio7Qb395OdzbnO20ui4rf01d1hTpCx0",
         linkedinLink: "https://linkedin.com/markuswessman"
     },
     {
         name: "Avinash Bandi",
         title: "Executive Director",
-        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
-        linkedinLink: "https://linkedin.com/markuswessman"
-    },
-    {
-        name: "Avinash Bandi",
-        title: "Executive Director",
-        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        imageLink: "https://media.licdn.com/dms/image/D5603AQGTCuo56yEJIA/profile-displayphoto-shrink_800_800/0/1699569454730?e=1717632000&v=beta&t=uVCH6lrsmZP90erJNy6zY9JmDBeobmrCT6D99X5j3Fk",
         linkedinLink: "https://linkedin.com/markuswessman"
     },
     {
