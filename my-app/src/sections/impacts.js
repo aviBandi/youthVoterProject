@@ -1,27 +1,6 @@
 import React from 'react'
-
+import { Testimonials } from '../data'
 const impacts = () => {
-
-    const Testimonials = [
-        {
-            name: 'Scoootty Giengier',
-            role: 'WHS person',
-            image: 'https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg',
-            testimonial: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.'
-        },
-        {
-            name: 'Avinash Bandi',
-            role: 'Software Engineer',
-            image: 'https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg',
-            testimonial: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.'
-        },
-        {
-            name: 'Markus Wessman',
-            role: 'Future POTUS',
-            image: 'https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg',
-            testimonial: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.'
-        }
-    ]
 
     return (
         <div className='bg-blue-100 overflow-hidden'>

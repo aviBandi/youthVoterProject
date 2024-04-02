@@ -44,11 +44,11 @@ export default function Hero() {
                             <a
                                 href="https://mnvotes.sos.mn.gov/VoterRegistration/index"
                                 target="_blank"
-                                className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all"
+                                className="rounded-md border-2 border-blue-600 bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all"
                             >
                                 Register to Vote <span aria-hidden="true">→</span>
                             </a>
-                            <a href="/resources" className="rounded-md   bg-neutral-50 px-3.5 py-2.5 text-sm font-semibold text-blue-600 shadow-sm hover:bg-blue-600 hover:text-white transition-all">
+                            <a href="/resources" className="rounded-md  border-2 border-white bg-neutral-50 px-3.5 py-2.5 text-sm font-semibold text-blue-600 shadow-sm hover:bg-blue-600 hover:text-white transition-all">
                                 Resources <span aria-hidden="true">→</span>
                             </a>
                         </div>

@@ -1,39 +1,9 @@
 import React from 'react';
 import NavOther from '../components/navOther';
 import Footer from '../components/footer';
+import { TeamMembers } from '../data';
 const Team = () => {
-  const teamMembers = [
-    {
-      name: "Avinash Bandi",
-      title: "Executive Director",
-      linkedinLink: "https://linkedin.com/markuswessman"
-    },
-    {
-      name: "markus wessman",
-      title: "assistant person at TYVP",
-      linkedinLink: "https://linkedin.com/johndoe"
-    },
-    {
-      name: "Jane Smith",
-      title: "Marketing Manager",
-      linkedinLink: "https://linkedin.com/janesmith"
-    },
-    {
-      name: "Markus Wessman",
-      title: "Executive Director",
-      linkedinLink: "https://linkedin.com/markuswessman"
-    },
-    {
-      name: "John Doe",
-      title: "Software Engineer",
-      linkedinLink: "https://linkedin.com/johndoe"
-    },
-    {
-      name: "Jane Smith",
-      title: "Marketing Manager",
-      linkedinLink: "https://linkedin.com/janesmith"
-    }
-  ];
+
 
   return (
     <div className='bg-blue-50 overflow-auto '>
@@ -54,7 +24,7 @@ const Team = () => {
           </div>
 
           <div className="grid gap-x-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:gap-x-12">
-            {teamMembers.map((member, index) => (
+            {TeamMembers.map((member, index) => (
               <div key={index} className="w-128 pb-32">
                 <div className="block h-full rounded-lgbg rounded-xl bg-neutral-700">
                   <div className="flex justify-center">
