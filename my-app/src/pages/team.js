@@ -1,6 +1,6 @@
 import React from 'react';
 import NavOther from '../components/navOther';
-import Footer from '../sections/footer';
+import Footer from '../components/footer';
 const Team = () => {
   const teamMembers = [
     {
@@ -53,9 +53,9 @@ const Team = () => {
             </h3>
           </div>
 
-          <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
+          <div className="grid gap-x-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:gap-x-12">
             {teamMembers.map((member, index) => (
-              <div key={index} className="w-full pb-32">
+              <div key={index} className="w-128 pb-32">
                 <div className="block h-full rounded-lgbg rounded-xl bg-neutral-700">
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">

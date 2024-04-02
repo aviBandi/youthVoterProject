@@ -1,7 +1,7 @@
 import NavOther from "../components/navOther"
 import heroPic from "../images/heroPic.png"
 import ResourcesCard from "../components/resourcesCard"
-import Footer from "../sections/footer"
+import Footer from "../components/footer"
 const resouces = () => {
 
     return (

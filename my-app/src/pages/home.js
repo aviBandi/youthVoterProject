@@ -4,7 +4,7 @@ import Mission from "../sections/mission"
 import ResourcesHome from "../sections/resourcesHome"
 import GetStarted from "../sections/getStarted"
 import Stats from "../sections/stats"
-import Footer from "../sections/footer"
+import Footer from "../components/footer"
 import Impacts from "../sections/impacts"
 import TrustedBy from "../sections/trustedby"
 const home = () => {
