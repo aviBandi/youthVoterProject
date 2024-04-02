@@ -1,14 +1,14 @@
 import NavOther from "../components/navOther"
-import heroPic from "../images/heroPic.png"
 import ResourcesCard from "../components/resourcesCard"
 import Footer from "../components/footer"
+import { Resources } from "../data"
 const resouces = () => {
 
     return (
         <div className="bg-blue-50 overflow-auto ">
 
             <NavOther />
-            <div className='max-w-5xl mx-auto mb-36 px-6 sm:px-0'>
+            <div className='max-w-5xl mx-auto mb-36 px-6 lg:px-0'>
 
                 <div className='mt-32 mb-16 '>
                     <div className='flex items-center'>
@@ -22,12 +22,12 @@ const resouces = () => {
                         All the infomation you need to get your voter registration drive a massive kickstart!
                     </h3>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                    <ResourcesCard docName="Avi is Cool" description="best Junior VP wHS has ever seen" image={heroPic}/>
-                    <ResourcesCard docName="Avi is Cool" description="best Junior VP wHS has ever seen" image={heroPic}/>
-                    <ResourcesCard docName="Avi is Cool" description="best Junior VP wHS has ever seen" image={heroPic}/>
-                    <ResourcesCard docName="Avi is Cool" description="best Junior VP wHS has ever seen" image={heroPic}/>
-                    <ResourcesCard docName="Avi is Cool" description="best Junior VP wHS has ever seen" image={heroPic}/>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {
+                        Resources.map((resource, index) => (
+                            <ResourcesCard key={index} docName={resource.name} description={resource.description} image={resource.image} link={resource.link} />
+                        ))
+                    }
                 </div>
             </div>
             <Footer />

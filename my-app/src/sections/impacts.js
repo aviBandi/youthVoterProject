@@ -4,7 +4,7 @@ const impacts = () => {
 
     return (
         <div className='bg-blue-100 overflow-hidden'>
-            <div class="container my-24 mx-auto px-6 md:px-0 max-w-5xl">
+            <div class="container my-24 mx-auto px-6 sm:px-7 max-w-5xl">
                 <section class="mb-32 text-center">
                     {/* <div className='flex items-center'>
                         <hr className="h-0.5 mt-2 rounded-2xl bg-blue-600 flex-1 mr-4"></hr>

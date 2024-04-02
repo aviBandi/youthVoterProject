@@ -4,7 +4,6 @@ import Footer from '../components/footer';
 import { TeamMembers } from '../data';
 const Team = () => {
 
-
   return (
     <div className='bg-blue-50 overflow-auto '>
       <NavOther />
@@ -30,7 +29,7 @@ const Team = () => {
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
-                        src="https://mdbcdn.b-cdn.net/img/new/avatars/15.jpg"
+                        src={member.imageLink}
                         className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                         alt="Avatar"
                       />

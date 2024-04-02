@@ -20,38 +20,72 @@ const Testimonials = [
 ]
 
 
+
+
 const TeamMembers = [
     {
-      name: "Avinash Bandi",
-      title: "Executive Director",
-      linkedinLink: "https://linkedin.com/markuswessman"
+        name: "Avinash Bandi",
+        title: "Executive Director",
+        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        linkedinLink: "https://linkedin.com/markuswessman"
     },
     {
-      name: "markus wessman",
-      title: "assistant person at TYVP",
-      linkedinLink: "https://linkedin.com/johndoe"
+        name: "Avinash Bandi",
+        title: "Executive Director",
+        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        linkedinLink: "https://linkedin.com/markuswessman"
     },
     {
-      name: "Jane Smith",
-      title: "Marketing Manager",
-      linkedinLink: "https://linkedin.com/janesmith"
+        name: "Avinash Bandi",
+        title: "Executive Director",
+        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        linkedinLink: "https://linkedin.com/markuswessman"
     },
     {
-      name: "Markus Wessman",
-      title: "Executive Director",
-      linkedinLink: "https://linkedin.com/markuswessman"
+        name: "Avinash Bandi",
+        title: "Executive Director",
+        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        linkedinLink: "https://linkedin.com/markuswessman"
     },
     {
-      name: "John Doe",
-      title: "Software Engineer",
-      linkedinLink: "https://linkedin.com/johndoe"
+        name: "Avinash Bandi",
+        title: "Executive Director",
+        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        linkedinLink: "https://linkedin.com/markuswessman"
     },
+
+];
+
+const Resources = [
+
     {
-      name: "Janasdfasdfasdfasdfh",
-      title: "Marketing Manager",
-      linkedinLink: "https://linkedin.com/janesmith"
-    }
-  ];
+        name: "Avi is Cool",
+        description: "best Junior VP wHS has ever seen",
+        image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        link: ""
+    },
+
+    {
+        name: "Avi is Cool",
+        description: "best Junior VP wHS has ever seen",
+        image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        link: ""
+    },
+
+    {
+        name: "Avi is Cool",
+        description: "best Junior VP wHS has ever seen",
+        image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        link: ""
+    },
+
+    {
+        name: "Avi is Cool",
+        description: "best Junior VP wHS has ever seen",
+        image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        link: ""
+    },
+]
 
 
-export {Testimonials, TeamMembers}
+export { Testimonials, TeamMembers, Resources }
