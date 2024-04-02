@@ -10,30 +10,30 @@ export default function Footer() {
           <aside>
             {/* <img src={Logo} className='h-12 pt-2' /> */}
             <p>
-              <span className='font-bold text-3xl'>The Youth Voter Project</span>
+              <span className='font-bold text-3xl text-white'>The Youth Voter Project</span>
               <br />
-              <span className='font-semibold text-lg'>Connecting Youth to Democracy!</span>
+              <span className='font-semibold text-lg text-white'>Connecting Youth to Democracy!</span>
             </p>
           </aside>
 
 
           <nav>
-            <h6 className="footer-title">Pages</h6>
+            <h6 className="footer-title text-white">Pages</h6>
             <a className="link link-hover text-white">Home</a>
-            <a className="link link-hover">Resources</a>
-            <a className="link link-hover">Team</a>
-            <a className="link link-hover">Contact</a>
+            <a className="link link-hover text-white">Resources</a>
+            <a className="link link-hover text-white">Team</a>
+            <a className="link link-hover text-white">Contact</a>
           </nav>
           <nav>
-            <h6 className="footer-title">Socials</h6>
-            <a className="link link-hover">Instagram</a>
-            <a className="link link-hover">Linkedin</a>
+            <h6 className="footer-title text-white">Socials</h6>
+            <a className="link link-hover text-white">Instagram</a>
+            <a className="link link-hover text-white">Linkedin</a>
           </nav>
           <nav>
-            <h6 className="footer-title">Legal</h6>
-            <a className="link link-hover">Terms of use</a>
-            <a className="link link-hover">Privacy policy</a>
-            <a className="link link-hover">Cookie policy</a>
+            <h6 className="footer-title text-white">Legal</h6>
+            <a className="link link-hover text-white">Terms of use</a>
+            <a className="link link-hover text-white">Privacy policy</a>
+            <a className="link link-hover text-white">Cookie policy</a>
           </nav>
         </footer>
       </div>
