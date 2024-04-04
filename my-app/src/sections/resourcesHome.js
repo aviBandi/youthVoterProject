@@ -16,9 +16,9 @@ const features = [
 
     },
     {
-        name: 'Other Resources',
+        name: 'Ambassador Resources',
         icon: CheckBadgeIcon,
-        buttonText: "Everything else.",
+        buttonText: "Resources",
         href: "/resources"
 
 

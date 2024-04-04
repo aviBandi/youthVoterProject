@@ -4,18 +4,18 @@ const features = [
 
 
   {
-    name: 'In-school events.',
-    description: 'We help ambassadors host registration events in schools.',
+    name: 'In-school events: ',
+    description: 'Helping ambassadors host registration events in schools.',
     icon: DocumentCheckIcon,
   },
   {
-    name: 'Voter Resources.',
-    description: 'We assist individuals in the registration process.',
+    name: 'Voter Resources: ',
+    description: 'Assisting individuals in the registration process.',
     icon: DocumentCheckIcon,
   },
   {
-    name: 'Youth Advocacy.',
-    description: 'We advocate for young people’s right to vote.',
+    name: 'Youth Advocacy: ',
+    description: 'Advocating for young people’s right to vote.',
     icon: DocumentCheckIcon,
   },
 
