@@ -5,17 +5,17 @@ const features = [
 
   {
     name: 'In-school events.',
-    description: 'The Youth Voter Project provides everything needed for a successful voter registration drive. ',
+    description: 'We help ambassadors host registration events in schools.',
     icon: DocumentCheckIcon,
   },
   {
     name: 'Voter Resources.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    description: 'We assist individuals in the registration process.',
     icon: DocumentCheckIcon,
   },
   {
     name: 'Youth Advocacy.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    description: 'We advocate for young people’s right to vote.',
     icon: DocumentCheckIcon,
   },
 
