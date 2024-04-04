@@ -18,8 +18,8 @@ const features = [
     {
         name: 'Other Resources',
         icon: CheckBadgeIcon,
-        buttonText: "Register to vote!",
-        href: ""
+        buttonText: "Everything else.",
+        href: "/resources"
 
 
     },
