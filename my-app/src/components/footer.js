@@ -5,8 +5,6 @@ export default function Footer() {
     <div className='bg-gray-800 overflow-auto pb-24'>
       <div className='max-w-5xl mx-auto px-8'>
         <footer className="footer pt-28 text-base-content">
-
-
           <aside>
             {/* <img src={Logo} className='h-12 pt-2' /> */}
             <p>

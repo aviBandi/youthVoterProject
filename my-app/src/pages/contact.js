@@ -16,6 +16,7 @@ import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'
 import NavOther from "../components/navOther"
+import Footer from '../components/footer'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -23,7 +24,9 @@ function classNames(...classes) {
 
 export default function Contact() {
 
+
   return (
+    <div>
     <div className="isolate bg-blue-50 px-6 py-24 sm:py-32 lg:px-8">
       <NavOther />
 
@@ -39,7 +42,7 @@ export default function Contact() {
           Please feel free to reach out to us with any questions or concerns. Our team will get back to you in 24 hours.
         </h3>
       </div>
-      <form action="#" method="POST" className="mx-auto mt-16 max-w-3xl sm:mt-20">
+      <form action="https://formsubmit.co/Markuswessman22@gmail.com" method="POST" className="mx-auto mt-16 max-w-3xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -110,6 +113,8 @@ export default function Contact() {
           </button>
         </div>
       </form>
+      </div>
+      <Footer />
     </div>
   )
 }
