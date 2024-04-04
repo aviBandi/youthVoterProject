@@ -38,7 +38,7 @@ const TeamMembers = [
         linkedinLink: "https://www.linkedin.com/in/taras-sarazhynskyy-235760228/"
     },
     {
-        name: "Bryna Lockman",
+        name: "Brynja Lockman",
         title: "Outreach Director",
         imageLink: "https://media.licdn.com/dms/image/D5603AQGTCuo56yEJIA/profile-displayphoto-shrink_800_800/0/1699569454730?e=1717632000&v=beta&t=uVCH6lrsmZP90erJNy6zY9JmDBeobmrCT6D99X5j3Fk",
         linkedinLink: "https://www.linkedin.com/in/brynja-lockman-1bb492267/"
