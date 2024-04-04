@@ -18,12 +18,6 @@ const home = () => {
             <Impacts />
             <GetStarted />
             <Footer />
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-
         </div>
     )
 }
