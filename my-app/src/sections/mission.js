@@ -4,17 +4,17 @@ const features = [
 
 
   {
-    name: 'SSL certificates.',
+    name: 'In-school events.',
     description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: DocumentCheckIcon,
   },
   {
-    name: 'SSL certificates.',
+    name: 'Voter Resources.',
     description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: DocumentCheckIcon,
   },
   {
-    name: 'SSL certificates.',
+    name: 'Youth Advocacy.',
     description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: DocumentCheckIcon,
   },
@@ -28,10 +28,9 @@ export default function Example() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">About The <span className='text-blue-600'>Youth Voter Project</span></p>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">About The <span className='text-blue-600'>Youth Voter Project</span></p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+                The Youth Voter Project is a student-led organization dedicated to registering or pre-registering Minnesota’s youth through events run by Student Ambassadors.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (

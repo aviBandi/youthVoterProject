@@ -24,7 +24,7 @@ export default function Footer() {
           </nav>
           <nav>
             <h6 className="footer-title text-white">Socials</h6>
-            <a target="_blank" className="link link-hover text-white">Instagram</a>
+            <a href='https://www.instagram.com/youthvoterproject?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target="_blank" className="link link-hover text-white">Instagram</a>
             <a href="https://www.linkedin.com/company/youthvoterproject/" target='_blank' className="link link-hover text-white">Linkedin</a>
           </nav>
           <nav>
