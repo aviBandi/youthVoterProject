@@ -39,7 +39,7 @@ const Team = () => {
                     <h5 className="mb-4 text-lg font-bold text-blue-300">{member.name}</h5>
                     <p className="mb-6 text-white">{member.title}</p>
                     <ul className="mx-auto flex list-inside justify-left">
-                      <a href={member.linkedinLink} className="px-2">
+                      <a href={member.linkedinLink} target='_blank' className="px-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
