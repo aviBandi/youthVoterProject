@@ -5,7 +5,7 @@ const ResourcesCard = ({docName, description, image, link}) => {
 
         <div className="justify-center max-contain">
             <div className="pt-[26px]">
-                <a href={link}>
+                <a href={link} target="_blank">
                     <div className='flex bg-red-50 h-[187px] justify-center border-spacing-1 border-[1px] rounded-lg border-black hover:-translate-y-1 transition-all hover:border-blue-500 hover:border-2'>
                         <img
                             src={image}

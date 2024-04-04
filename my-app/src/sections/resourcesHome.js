@@ -9,10 +9,10 @@ const features = [
         href: "/contact"
     },
     {
-        name: 'Individual Voter Registration',
+        name: 'Become a Voter',
         icon: UserIcon,
         buttonText: "Register to vote!",
-        href: ""
+        href: "https://mnvotes.sos.mn.gov/VoterRegistration/index"
 
     },
     {

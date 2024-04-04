@@ -61,24 +61,24 @@ const TeamMembers = [
 const Resources = [
 
     {
-        name: "Avi is Cool",
-        description: "best Junior VP wHS has ever seen",
+        name: "Registration Presentation",
+        description: "Why you should register to vote!",
         image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
-        link: ""
+        link: "https://docs.google.com/presentation/d/1WkCujlPuMISAr0uIQvMx_DSZjFluCVzczNXkH_8NZR8/copy"
     },
 
     {
-        name: "Avi is Cool",
-        description: "best Junior VP wHS has ever seen",
+        name: "Planning your Event",
+        description: "Everything needed for an successful event!",
         image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
-        link: ""
+        link: "https://docs.google.com/document/d/1womjpl6-JKTIG_ZRPHP0HvMjHW87bRoJe9Vg8Gfux-g/copy"
     },
 
     {
-        name: "Avi is Cool",
-        description: "best Junior VP wHS has ever seen",
+        name: "Volunteer Training",
+        description: "Volunteer Training Resources!",
         image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
-        link: ""
+        link: "https://drive.google.com/file/d/1-4MpwxHCQm5mwPZAJliy_HDKK8TmuasE/view?usp=drive_link "
     },
 
     {
