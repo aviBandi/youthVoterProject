@@ -8,7 +8,7 @@ const Nav = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     const navigation = [
         { name: 'Home', href: '/home' },
-        { name: 'Resources', href: '/resources' },
+        // { name: 'Resources', href: '/resources' },
         { name: 'Team', href: '/team' },
         { name: 'Contact', href: '/contact' },
     ]
