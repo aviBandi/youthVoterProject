@@ -10,7 +10,7 @@ export default function Footer() {
             <p>
               <span className='font-bold text-3xl text-white'>The Youth Voter Project</span>
               <br />
-              <span className='font-semibold text-lg text-white'>Connecting Youth to Democracy!</span>
+              <span className='font-semibold text-lg text-white'>Connecting Youth to Democracy</span>
             </p>
           </aside>
 

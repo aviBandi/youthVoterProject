@@ -38,7 +38,7 @@ export default function Hero() {
                             The Youth Voter Project
                         </h1>
                         <p className="mt-6 text-xl font-bold leading-8 text-white">
-                            Connecting youth to democracy, one voter at a time!
+                            Connecting Youth to Democracy
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
