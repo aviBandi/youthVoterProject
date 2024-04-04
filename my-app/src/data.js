@@ -1,4 +1,6 @@
-// import {souri} from "../src/images/teamPics/souri.png"
+import souri from "./images/souri.png";
+
+
 
 const Testimonials = [
     {
@@ -61,7 +63,7 @@ const Resources = [
     {
         name: "Registration Presentation",
         description: "Why you should register to vote!",
-        image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        image: "https://media.licdn.com/dms/image/D5603AQGtnouqPxRqFQ/profile-displayphoto-shrink_800_800/0/1680888559851?e=1717632000&v=beta&t=gQY6dTnjFGsjio7Qb395OdzbnO20ui4rf01d1hTpCx0",
         link: "https://docs.google.com/presentation/d/1WkCujlPuMISAr0uIQvMx_DSZjFluCVzczNXkH_8NZR8/copy"
     },
 

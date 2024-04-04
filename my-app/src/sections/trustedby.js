@@ -1,18 +1,18 @@
 export default function TrustedBy() {
   const workedWith = [
     {
-      name: 'Transistor',
-      image: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
+      name: 'Wazaata Public Schools',
+      image: 'https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1629749662/wayzatak12mnus/mclyh0dekeewz2rfkcur/WayzataPublicSchoolsLogo2021.png',
       link: 'https://transistor.fm'
     },
     {
       name: 'Reform',
-      image: 'https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg',
+      image: 'https://mail.google.com/mail/u/0?ui=2&ik=797555f0c0&attid=0.1&permmsgid=msg-a:r508101453115347670&th=18eaa44d24885861&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9sChzFEGeVyr-XOVa7yA24tKcHCfUfPuZwObod1_rcH6abjnmDAVztx1Zy2uNab3Qcdha78tG7JTEes-XdVBhYEkOyYjB1b5A_XKBSimOKFzWQfvMHGn8ydiQ&disp=emb&realattid=ii_luljlfbe0',
       link: 'https://reform.app'
     },
     {
-      name: 'Tuple',
-      image: 'https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg',
+      name: 'Burnsville',
+      image: 'https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_1/v1611558969/isd191org/xo5kip62mmbzfbe7u7zb/BHS_logo.eps',
       link: 'https://tuple.app'
     },
     {

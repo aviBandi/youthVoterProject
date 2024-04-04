@@ -2,6 +2,7 @@ import NavOther from "../components/navOther"
 import ResourcesCard from "../components/resourcesCard"
 import Footer from "../components/footer"
 import { Resources } from "../data"
+
 const resouces = () => {
 
     return (
