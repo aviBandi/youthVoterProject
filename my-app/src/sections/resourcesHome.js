@@ -3,19 +3,25 @@ import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from
 
 const features = [
     {
-        name: 'School Registration Resources',
+        name: 'Become an Ambassador',
         icon: UserGroupIcon,
-        buttonText: "Register your school!"
+        buttonText: "Contact Us!",
+        href: "/contact"
     },
     {
         name: 'Individual Voter Registration',
         icon: UserIcon,
-        buttonText: "Register to vote!"
+        buttonText: "Register to vote!",
+        href: ""
+
     },
     {
         name: 'Other Resources',
         icon: CheckBadgeIcon,
-        buttonText: "Register to vote!"
+        buttonText: "Register to vote!",
+        href: ""
+
+
     },
 ]
 
@@ -32,8 +38,7 @@ export default function ResourcesHome() {
                         <hr className="h-0.5 mt-2 rounded-2xl bg-red-600 flex-1 ml-4"></hr>
                     </div>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-                        pulvinar et feugiat blandit at. In mi viverra elit nunc.
+                        The Youth Voter Project provides everything you need for a successful voter registration drive.
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-16 lg:max-w-4xl">
@@ -49,9 +54,11 @@ export default function ResourcesHome() {
                                         {feature.name}
                                     </dt>
                                     {/* <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd> */}
-                                    <h1 className='border border-red-600 hover:bg-white hover:text-gray-700 rounded-xl border-[2px] inline-block px-4 py-1 bg-red-600 text-white transition-all'>
-                                        {feature.buttonText}
-                                    </h1>
+                                    <a href={feature.href}>
+                                        <button className='border border-red-600 hover:bg-white hover:text-gray-700 rounded-xl border-[2px] inline-block px-4 py-1 bg-red-600 text-white transition-all'>
+                                            {feature.buttonText}
+                                        </button>
+                                    </a>
                                 </div>
                             ))}
                         </div>

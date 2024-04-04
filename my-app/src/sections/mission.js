@@ -5,7 +5,7 @@ const features = [
 
   {
     name: 'In-school events.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    description: 'The Youth Voter Project provides everything needed for a successful voter registration drive. ',
     icon: DocumentCheckIcon,
   },
   {
