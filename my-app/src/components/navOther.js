@@ -20,11 +20,6 @@ const Nav = () => {
                         <a href="/home" className="-m-1.5 p-1.5">
                             <div className='flex gap-6 items-center'>
 
-                                <div className="-my-6 divide-y">
-                                    <div className="space-y-2 py-6">
-                                        <h6 className="text-xl font-semibold leading-6 text-black">The Youth Voter Project</h6>
-                                    </div>
-                                </div>
 
                                 <img
                                     className="h-12 w-auto"
