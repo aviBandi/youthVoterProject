@@ -19,7 +19,7 @@ const resouces = () => {
 
                     </div>
                     <h3 className='mt-7 text-gray-700 font-semibold text-lg'>
-                        All the infomation you need to get your voter registration drive a massive kickstart!
+                        Everything you need to get your voter registration drive started!
                     </h3>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

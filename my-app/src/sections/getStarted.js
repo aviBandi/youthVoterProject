@@ -11,14 +11,14 @@ export default function Example() {
                 
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                Be the difference you want to see in your school! Become an ambassador today!
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a
                   href="#"
                   className="rounded-md border border-red-600 border-[2px] bg-red-600 text-white px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-gray-100 transition hover:text-gray-700"
                 >
-                  Get Started Here!
+                  Join Us!
                 </a>
               </div>
             </div>
