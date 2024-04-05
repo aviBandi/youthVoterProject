@@ -1,3 +1,5 @@
-import registerToVote from "./registerToVote.png";
+import registerToVote from './resourceImages/registerToVote.png';
+import planningEvent from './resourceImages/planningEvent.png';
+import volunteerTraining from './resourceImages/volunteerTraining.png';
 
-export {registerToVote};
+export {registerToVote, planningEvent, volunteerTraining};

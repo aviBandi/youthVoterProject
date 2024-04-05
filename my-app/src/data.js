@@ -1,4 +1,4 @@
-import souri from "./images/souri.png";
+import { registerToVote, planningEvent, volunteerTraining } from "./images";
 
 
 
@@ -64,30 +64,24 @@ const Resources = [
     {
         name: "Registration Presentation",
         description: "Why you should register to vote!",
-        image: "https://media.licdn.com/dms/image/D5603AQGtnouqPxRqFQ/profile-displayphoto-shrink_800_800/0/1680888559851?e=1717632000&v=beta&t=gQY6dTnjFGsjio7Qb395OdzbnO20ui4rf01d1hTpCx0",
+        image: registerToVote,
         link: "https://docs.google.com/presentation/d/1WkCujlPuMISAr0uIQvMx_DSZjFluCVzczNXkH_8NZR8/copy"
     },
 
     {
         name: "Planning your Event",
         description: "Everything needed for an successful event!",
-        image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        image: planningEvent,
         link: "https://docs.google.com/document/d/1womjpl6-JKTIG_ZRPHP0HvMjHW87bRoJe9Vg8Gfux-g/copy"
     },
 
     {
         name: "Volunteer Training",
         description: "Volunteer Training Resources!",
-        image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        image: volunteerTraining,
         link: "https://drive.google.com/file/d/1-4MpwxHCQm5mwPZAJliy_HDKK8TmuasE/view?usp=drive_link "
     },
 
-    {
-        name: "Avi is Cool",
-        description: "best Junior VP wHS has ever seen",
-        image: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
-        link: ""
-    },
 ]
 
 
