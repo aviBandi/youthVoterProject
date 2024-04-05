@@ -43,17 +43,18 @@ const TeamMembers = [
         imageLink: "https://media.licdn.com/dms/image/D5603AQGTCuo56yEJIA/profile-displayphoto-shrink_800_800/0/1699569454730?e=1717632000&v=beta&t=uVCH6lrsmZP90erJNy6zY9JmDBeobmrCT6D99X5j3Fk",
         linkedinLink: "https://www.linkedin.com/in/brynja-lockman-1bb492267/"
     },
-    // {
-    //     name: "Souri Ahmed",
-    //     title: "Director of Public Relations",
-    //     imageLink: {souri},
-    //     linkedinLink: "https://linkedin.com/markuswessman"
-    // },
+
     {
         name: "Avinash Bandi",
         title: "Technology Director",
         imageLink: "https://media.licdn.com/dms/image/D5603AQHTDaqyaUT3PA/profile-displayphoto-shrink_200_200/0/1689619678004?e=1717632000&v=beta&t=EkNxTmTH4uvlSHP7s1iR_1pL42fIrgGfMCNw01SJCF0",
         linkedinLink: "https://www.linkedin.com/in/avi-bandi-397279227/"
+    },
+    {
+        name: "Souri Ahmed",
+        title: "Public Relations Director",
+        imageLink: "https://media.licdn.com/dms/image/D4D03AQGOZdYBBOew7w/profile-displayphoto-shrink_200_200/0/1712285845006?e=2147483647&v=beta&t=gEmU0Hkazd_5ASiIs5qFpnQCBvDsthl5XbOewUFRh64",
+        linkedinLink: "https://www.linkedin.com/in/souri-ahmed-386771302/"
     },
 
 ];
