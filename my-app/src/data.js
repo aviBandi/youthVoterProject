@@ -45,7 +45,7 @@ const TeamMembers = [
     },
 
     {
-        name: "Avinash Bandi",
+        name: "Avi Bandi",
         title: "Technology Director",
         imageLink: "https://media.licdn.com/dms/image/D5603AQHTDaqyaUT3PA/profile-displayphoto-shrink_200_200/0/1689619678004?e=1717632000&v=beta&t=EkNxTmTH4uvlSHP7s1iR_1pL42fIrgGfMCNw01SJCF0",
         linkedinLink: "https://www.linkedin.com/in/avi-bandi-397279227/"
