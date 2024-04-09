@@ -18,7 +18,7 @@ const impacts = () => {
                         </p>
                         <hr className="h-0.5 mt-2 rounded-2xl bg-blue-600 flex-1 ml-4"></hr>
                     </div>
-                    <div class="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
+                    <div class="grid gap-x-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-x-12">
 
                         {
                             Testimonials.map((testimonial) => (
@@ -26,7 +26,7 @@ const impacts = () => {
                                     <div class="mb-12 md:mb-0">
                                         <div class="mb-6 flex justify-center">
                                             <img src={testimonial.image}
-                                                class="w-32 rounded-full shadow-lg dark:shadow-black/20" />
+                                                class="w-32 h-32 rounded-full shadow-lg dark:shadow-black/20" />
                                         </div>
                                         <h5 class="mb-2 text-lg font-bold text-gray-700">{testimonial.name}</h5>
                                         <h3 class="mb-4 font-semibold text-blue-600">

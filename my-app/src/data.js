@@ -1,25 +1,25 @@
-import { registerToVote, planningEvent, volunteerTraining } from "./images";
+import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal } from "./images";
 
 
 
 const Testimonials = [
     {
-        name: 'Scoootty Giengier',
-        role: 'WHS person',
-        image: 'https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg',
-        testimonial: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.'
+        name: 'Shelley Guo',
+        role: 'Registed to Vote',
+        image: Shelley,
+        testimonial: 'TYVP provided valuable assistance to me in preregistering to vote and helped educate me on the voting process.'
     },
     {
-        name: 'Avinash Bandi',
-        role: 'Software Engineer',
-        image: 'https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg',
-        testimonial: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.'
+        name: 'Nawal Arafa',
+        role: 'Blaine Ambassador',
+        image: Nawal,
+        testimonial: 'TYVP has been an amazing guide and support in helping my school kickstart into Voter Registration Day.'
     },
     {
-        name: 'Markus Wessman',
-        role: 'Future POTUS',
+        name: 'Scott Lasota',
+        role: 'WHS Student Council',
         image: 'https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg',
-        testimonial: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.'
+        testimonial: 'TYVP has been phenomonal in spreading awareness on youth voting and democracy!'
     }
 ]
 
