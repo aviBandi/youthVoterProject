@@ -5,7 +5,7 @@ import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal } from
 const Testimonials = [
     {
         name: 'Shelley Guo',
-        role: 'Registed to Vote',
+        role: 'Registered to Vote',
         image: Shelley,
         testimonial: 'TYVP provided valuable assistance to me in preregistering to vote and helped educate me on the voting process.'
     },
