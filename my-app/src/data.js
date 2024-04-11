@@ -1,4 +1,4 @@
-import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal } from "./images";
+import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal, Taras } from "./images";
 
 
 
@@ -34,7 +34,7 @@ const TeamMembers = [
     {
         name: "Taras Sarazhyznskyy",
         title: "Finance Director",
-        imageLink: "https://media.licdn.com/dms/image/D5603AQGtnouqPxRqFQ/profile-displayphoto-shrink_800_800/0/1680888559851?e=1717632000&v=beta&t=gQY6dTnjFGsjio7Qb395OdzbnO20ui4rf01d1hTpCx0",
+        imageLink: Taras,
         linkedinLink: "https://www.linkedin.com/in/taras-sarazhynskyy-235760228/"
     },
     {
