@@ -39,7 +39,7 @@ export default function Contact() {
 
         </div>
         <h3 className='mt-7 text-gray-700 font-semibold text-lg'>
-          Please feel free to reach out to us with any questions or concerns. Our team will get back to you in 24 hours.
+          Interested in becoming an ambassador or bringing a voter registration event to your school? Fill out the form below to let us know! You can expect a response from our team in 1-3 days.
         </h3>
       </div>
       <form action="https://formsubmit.co/Markuswessman22@gmail.com" method="POST" className="mx-auto mt-16 max-w-3xl sm:mt-20">
