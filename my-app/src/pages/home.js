@@ -7,10 +7,11 @@ import Stats from "../sections/stats"
 import Footer from "../components/footer"
 import Impacts from "../sections/impacts"
 import TrustedBy from "../sections/trustedby"
+import Banner from "../components/banner"
 const home = () => {
     return (
         <div className="">
-            <NavHome/>
+            <NavHome />
             <Hero />
             <Mission />
             <TrustedBy />
