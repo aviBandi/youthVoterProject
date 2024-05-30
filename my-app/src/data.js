@@ -32,7 +32,8 @@ const TeamMembers = [
         linkedinLink: "https://www.linkedin.com/in/markus-wessman-7085b52b5/"
     },
     {
-        name: "Taras Sarazhyznskyy",
+        name: "Taras Sarazhynskyy",
+        // TARAS SARAZHYNSKYY
         title: "Finance Director",
         imageLink: Taras,
         linkedinLink: "https://www.linkedin.com/in/taras-sarazhynskyy-235760228/"
