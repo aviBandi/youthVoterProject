@@ -1,4 +1,4 @@
-import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal, Taras } from "./images";
+import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal, Taras, Avi, Brynja, Markus } from "./images";
 
 
 
@@ -28,7 +28,7 @@ const TeamMembers = [
     {
         name: "Markus Wessman",
         title: "Executive Director",
-        imageLink: "https://media.licdn.com/dms/image/D4D03AQE0y5deMMrxww/profile-displayphoto-shrink_800_800/0/1709094256112?e=1717632000&v=beta&t=sGM0xXhBrwABhnoWIQd7qiNG0DQj9WTN9KfE15cv2iw",
+        imageLink: Markus,
         linkedinLink: "https://www.linkedin.com/in/markus-wessman-7085b52b5/"
     },
     {
@@ -41,7 +41,7 @@ const TeamMembers = [
     {
         name: "Brynja Lockman",
         title: "Outreach Director",
-        imageLink: "https://media.licdn.com/dms/image/D5603AQGTCuo56yEJIA/profile-displayphoto-shrink_800_800/0/1699569454730?e=1717632000&v=beta&t=uVCH6lrsmZP90erJNy6zY9JmDBeobmrCT6D99X5j3Fk",
+        imageLink: Brynja,
         linkedinLink: "https://www.linkedin.com/in/brynja-lockman-1bb492267/"
     },
     {
@@ -54,7 +54,7 @@ const TeamMembers = [
     {
         name: "Avi Bandi",
         title: "Technology Director",
-        imageLink: "https://media.licdn.com/dms/image/D5603AQHTDaqyaUT3PA/profile-displayphoto-shrink_200_200/0/1689619678004?e=1717632000&v=beta&t=EkNxTmTH4uvlSHP7s1iR_1pL42fIrgGfMCNw01SJCF0",
+        imageLink: Avi,
         linkedinLink: "https://www.linkedin.com/in/avi-bandi-397279227/"
     },
 
