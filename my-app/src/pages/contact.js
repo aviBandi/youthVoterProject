@@ -42,7 +42,7 @@ export default function Contact() {
           Interested in becoming an ambassador or bringing a voter registration event to your school? Fill out the form below to let us know! You can expect a response from our team in 1-3 days.
         </h3>
       </div>
-      <form action="https://formsubmit.co/Markuswessman22@gmail.com" method="POST" className="mx-auto mt-16 max-w-3xl sm:mt-20">
+      <form action="https://formsubmit.co/brynja.lockman25@gmail.com" method="POST" className="mx-auto mt-16 max-w-3xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
