@@ -10,6 +10,7 @@ import Taras from "./teamImages/tarasPic.jpg";
 import Avi from "./teamImages/aviPic.png";
 import Brynja from "./teamImages/brynja.png";
 import Markus from "./teamImages/markusPic.png";
+import Ankita from "./teamImages/ankitaPic.png";
 export {registerToVote, planningEvent, volunteerTraining, blaine, lakevilleNorth, hopkins, Shelley, Nawal, Taras
-, Avi, Brynja, Markus
+, Avi, Brynja, Markus, Ankita
 };

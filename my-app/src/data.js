@@ -1,4 +1,4 @@
-import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal, Taras, Avi, Brynja, Markus } from "./images";
+import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal, Taras, Avi, Brynja, Markus, Ankita } from "./images";
 
 
 
@@ -56,6 +56,12 @@ const TeamMembers = [
         title: "Technology Director",
         imageLink: Avi,
         linkedinLink: "https://www.linkedin.com/in/avi-bandi-397279227/"
+    },
+    {
+        name: "Ankita Kumar",
+        title: "Resources Director",
+        imageLink: Ankita,
+        linkedinLink: "https://www.linkedin.com/in/ankita-kumar-1a1777281/"
     },
 
 ];
