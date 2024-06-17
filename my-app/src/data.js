@@ -45,6 +45,12 @@ const TeamMembers = [
         linkedinLink: "https://www.linkedin.com/in/brynja-lockman-1bb492267/"
     },
     {
+        name: "Ankita Kumar",
+        title: "Resources Director",
+        imageLink: Ankita,
+        linkedinLink: "https://www.linkedin.com/in/ankita-kumar-1a1777281/"
+    },
+    {
         name: "Souri Ahmed",
         title: "Public Relations Director",
         imageLink: "https://media.licdn.com/dms/image/D4D03AQGOZdYBBOew7w/profile-displayphoto-shrink_200_200/0/1712285845006?e=2147483647&v=beta&t=gEmU0Hkazd_5ASiIs5qFpnQCBvDsthl5XbOewUFRh64",
@@ -57,12 +63,7 @@ const TeamMembers = [
         imageLink: Avi,
         linkedinLink: "https://www.linkedin.com/in/avi-bandi-397279227/"
     },
-    {
-        name: "Ankita Kumar",
-        title: "Resources Director",
-        imageLink: Ankita,
-        linkedinLink: "https://www.linkedin.com/in/ankita-kumar-1a1777281/"
-    },
+
 
 ];
 
