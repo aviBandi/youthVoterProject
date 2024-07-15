@@ -2,7 +2,7 @@ import React from 'react';
 
 const Register = () => {
   return (
-    <div className='flex items-center justify-center h-screen border border-red-500'>
+    <div className='flex items-center justify-center h-screen'>
         <button>
             <a href="https://mnvotes.sos.mn.gov/VoterRegistration/index" target="_blank">
                 <div className="flex items-center justify-center gap-x-6">
