@@ -3,6 +3,7 @@ import Contact from './pages/contact';
 import Home from './pages/home';
 import Resources from './pages/resources';
 import Team from './pages/team';
+import Register from './pages/register';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route path="/resources" element={<Resources />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/register" element={<Register />} />
+
         </Routes>
       </BrowserRouter>
 
