@@ -22,16 +22,6 @@ const Register = () => {
 
 
         try {
-            // const docTotal = doc(db, 'clicks', 'totalClicks');
-            // const value = await getDoc(docTotal);
-            // const totalClicks = value.data();
-            // console.log(getCurrentDate());
-            // await updateDoc(docTotal, {
-            //     totalClicks: totalClicks.totalClicks + 1
-            // });
-            // console.log('Document successfully updated!');
-
-
             const docTotal = doc(db, 'clicks', 'totalClicks');
             const docRef = doc(db, 'clicks', getCurrentDate());
 
