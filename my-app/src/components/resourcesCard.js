@@ -1,5 +1,3 @@
-import heroPic from "../images/heroPic.png"
-
 const ResourcesCard = ({docName, description, image, link}) => {
     return (
 

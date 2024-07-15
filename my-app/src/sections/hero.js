@@ -1,4 +1,4 @@
-import bg from "../images/heroPic.png"
+import bg from "../images/heroPic.jpeg";
 
 
 export default function Hero() {
