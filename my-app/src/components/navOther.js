@@ -11,6 +11,7 @@ const Nav = () => {
         { name: 'Resources', href: '/resources' },
         { name: 'Team', href: '/team' },
         { name: 'Contact', href: '/contact' },
+        { name: "Donate", href: 'https://www.justgiving.com/page/the-youth-voter-project?utm_campaign=lc_frp_share_transaction_transactional_--_page_launched_--_campaign&utm_content=87dabc9b-68e5-4393-8dc8-6f8d39056640&utm_medium=email&utm_source=postoffice&utm_term=1721937370922' }
     ]
     return (
         <div>
