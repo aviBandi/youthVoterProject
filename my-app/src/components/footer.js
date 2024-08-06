@@ -7,11 +7,20 @@ export default function Footer() {
         <footer className="footer pt-28 text-base-content">
           <aside>
             {/* <img src={Logo} className='h-12 pt-2' /> */}
-            <p>
-              <span className='font-bold text-3xl text-white'>The Youth Voter Project</span>
-              <br />
-              <span className='font-semibold text-lg text-white'>Connecting Youth to Democracy</span>
-            </p>
+            <div>
+              <p className='font-bold text-3xl text-white'>The Youth Voter Project</p>
+
+              <p className='font-semibold text-lg text-white mt-2'>Fiscally sponsored by the 
+                {" "}
+                <span  className="underline underline-offset-4 hover:text-blue-500 transition-all">
+                  <a href='https://www.ymcanorth.org/locations/center_for_youth_voice' target='_blank'>
+                    YMCA Center for Youth Voice
+                  </a>
+                </span>
+
+
+              </p>
+            </div>
           </aside>
 
 
