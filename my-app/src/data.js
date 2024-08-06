@@ -1,4 +1,4 @@
-import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal, Taras, Avi, Brynja, Markus, Ankita } from "./images";
+import { registerToVote, planningEvent, volunteerTraining, Shelley, Nawal, Taras, Avi, Brynja, Markus, Ankita, Maitreya } from "./images";
 
 
 
@@ -51,10 +51,10 @@ const TeamMembers = [
         linkedinLink: "https://www.linkedin.com/in/ankita-kumar-1a1777281/"
     },
     {
-        name: "Souri Ahmed",
+        name: "Maitreya Reeder",
         title: "Public Relations Director",
-        imageLink: "https://media.licdn.com/dms/image/D4D03AQGOZdYBBOew7w/profile-displayphoto-shrink_200_200/0/1712285845006?e=2147483647&v=beta&t=gEmU0Hkazd_5ASiIs5qFpnQCBvDsthl5XbOewUFRh64",
-        linkedinLink: "https://www.linkedin.com/in/souri-ahmed-386771302/"
+        imageLink: Maitreya,
+        linkedinLink: "https://www.linkedin.com/in/maitreya-reeder-62665031a"
     },
 
     {
@@ -78,7 +78,7 @@ const Resources = [
 
     {
         name: "Planning your Event",
-        description: "Everything needed for an successful event!",
+        description: "Walking you through a successful event!",
         image: planningEvent,
         link: "https://docs.google.com/document/d/1womjpl6-JKTIG_ZRPHP0HvMjHW87bRoJe9Vg8Gfux-g/copy"
     },

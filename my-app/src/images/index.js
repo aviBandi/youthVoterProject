@@ -11,8 +11,9 @@ import Avi from "./teamImages/aviPic.jpeg";
 import Brynja from "./teamImages/brynja.jpeg";
 import Markus from "./teamImages/markusPic.jpeg";
 import Ankita from "./teamImages/ankitaPic.jpeg";
+import Maitreya from "./teamImages/maitreyaPic.jpeg";
 
 
 export {registerToVote, planningEvent, volunteerTraining, blaine, lakevilleNorth, hopkins, Shelley, Nawal, Taras
-, Avi, Brynja, Markus, Ankita
+, Avi, Brynja, Markus, Ankita, Maitreya
 };
