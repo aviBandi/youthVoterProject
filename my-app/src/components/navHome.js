@@ -1,10 +1,11 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react';
 import logo from "../images/logo.png";
 
 const Nav = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
     const navigation = [
         { name: 'Home', href: '/home' },
         { name: 'Resources', href: '/resources' },
@@ -13,9 +14,24 @@ const Nav = () => {
         { name: "Donate", href: 'https://www.justgiving.com/page/the-youth-voter-project?utm_campaign=lc_frp_share_transaction_transactional_--_page_launched_--_campaign&utm_content=87dabc9b-68e5-4393-8dc8-6f8d39056640&utm_medium=email&utm_source=postoffice&utm_term=1721937370922' }
     ];
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div>
-            <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+            <header className={`${isScrolled ? 'fixed' : 'sticky'} top-0 left-0 right-0 z-50 bg-white shadow-md`}>
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href={"#"} className="-m-1.5 p-1.5">
