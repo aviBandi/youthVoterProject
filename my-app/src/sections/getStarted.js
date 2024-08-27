@@ -8,7 +8,7 @@ export default function Example() {
               <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
                 Register your school today!
                 <br />
-                
+
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Be the difference you want to see in your school! Become an ambassador today!
@@ -36,4 +36,3 @@ export default function Example() {
       </div>
     )
   }
-  

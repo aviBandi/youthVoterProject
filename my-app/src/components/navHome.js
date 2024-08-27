@@ -1,33 +1,30 @@
-import React from 'react'
-import { useState } from 'react'
+import React from 'react';
+import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
-import Banner from './banner';
-
-import logo from "../images/logo.png"
+import logo from "../images/logo.png";
 
 const Nav = () => {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const navigation = [
         { name: 'Home', href: '/home' },
         { name: 'Resources', href: '/resources' },
         { name: 'Team', href: '/team' },
         { name: 'Contact', href: '/contact' },
         { name: "Donate", href: 'https://www.justgiving.com/page/the-youth-voter-project?utm_campaign=lc_frp_share_transaction_transactional_--_page_launched_--_campaign&utm_content=87dabc9b-68e5-4393-8dc8-6f8d39056640&utm_medium=email&utm_source=postoffice&utm_term=1721937370922' }
-    ]
+    ];
+
     return (
         <div>
-            <header className="absolute inset-x-0 top-0 z-50">
-                {/* < Banner />  */}
+            <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href={"#"} className="-m-1.5 p-1.5">
                             <div className='flex gap-6 items-center'>
-
-
                                 <img
                                     className="h-12 w-auto"
                                     src={logo}
-                                    alt="" />
+                                    alt=""
+                                />
                             </div>
                         </a>
                     </div>
@@ -38,21 +35,18 @@ const Nav = () => {
                             onClick={() => setMobileMenuOpen(true)}
                         >
                             <span className="sr-only">Open main menu</span>
-
-                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="w-6 h-6">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-black">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
-
                         </button>
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         {navigation.map((item) => (
-                                <a key={item.name} href={item.href} className="text-xl font-semibold leading-6 text-red-200">
-                                    {item.name}
-                                </a>
+                            <a key={item.name} href={item.href} className="text-xl font-semibold leading-6 text-black">
+                                {item.name}
+                            </a>
                         ))}
                     </div>
-
                 </nav>
                 <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                     <div className="fixed inset-0 z-50" />
@@ -72,7 +66,9 @@ const Nav = () => {
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 <span className="sr-only">Close menu</span>
-                                {/* <XMarkIcon className="h-6 w-6" aria-hidden="true" /> */}
+                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-black">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
                             </button>
                         </div>
                         <div className="mt-6 flow-root">
@@ -88,14 +84,13 @@ const Nav = () => {
                                         </a>
                                     ))}
                                 </div>
-
                             </div>
                         </div>
                     </Dialog.Panel>
                 </Dialog>
             </header>
         </div>
-    )
-}
+    );
+};
 
-export default Nav
+export default Nav;

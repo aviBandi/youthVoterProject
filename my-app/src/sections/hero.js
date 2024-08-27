@@ -8,53 +8,62 @@ export default function Hero() {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
   };
+
   const overlayStyle = {
     position: "absolute",
     top: 0,
     right: 0,
     bottom: 0,
     left: 0,
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent black overlay
+    background: "rgba(0, 0, 0, 0.7)",
   };
+
   return (
-    <div className="h-screen w-screen" style={style}>
+    <div className="h-screen w-screen relative" style={style}>
       <div style={overlayStyle}></div>
 
-      <div className="relative isolate px-6 pt-14 lg:px-8">
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            {/* <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                            Announcing our next round of funding.{' '}
-                            <a href="#" className="font-semibold text-indigo-600">
-                                <span className="absolute inset-0" aria-hidden="true" />
-                                Read more <span aria-hidden="true">&rarr;</span>
-                            </a>
-                        </div> */}
+      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center h-full px-8 lg:px-24 text-left">
+        <div className="lg:w-1/2 mb-10 lg:mb-0">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-snug">
+            Empower the Future <br /> With Your Vote
+          </h1>
+          <p className="mt-4 text-lg sm:text-xl text-gray-300 leading-relaxed">
+            Be the change you want to see. Join us in encouraging youth to participate in democracy and shape a better tomorrow.
+          </p>
+          <div className="mt-8 flex flex-col sm:flex-row items-start lg:items-center gap-4">
+            <a
+              href="https://mnvotes.sos.mn.gov/VoterRegistration/index"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-full bg-gradient-to-r from-red-500 to-orange-500 px-6 py-3 text-lg font-semibold text-white hover:from-orange-500 hover:to-red-500 transition-all transform hover:scale-105"
+              onClick={incrementNumber}
+            >
+              Get Started
+            </a>
+            <a
+              href="/resources"
+              className="inline-block rounded-full border-2 border-white px-6 py-3 text-lg font-semibold text-white hover:bg-white hover:text-black transition-all transform hover:scale-105"
+            >
+              Explore Resources
+            </a>
           </div>
-          <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-blue-500 sm:text-6xl z-10">
-              The Youth Voter Project
-            </h1>
-            <p className="mt-6 text-xl font-bold leading-8 text-white">
-              Connecting Youth to Democracy
+        </div>
+
+        <div className="lg:w-1/2 flex justify-center lg:justify-end">
+          <div className="bg-white bg-opacity-10 p-8 rounded-lg shadow-lg backdrop-blur-md">
+            <h2 className="text-3xl font-semibold text-white mb-4">
+              Your Vote Matters
+            </h2>
+            <p className="text-gray-200">
+              Join millions of young voters who are making their voices heard.
+              Every vote counts towards shaping the policies and leaders of tomorrow.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <button onClick={incrementNumber}>
-                <a
-                  href="https://mnvotes.sos.mn.gov/VoterRegistration/index"
-                  target="_blank"
-                  className="rounded-md border-2 border-blue-600 bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all"
-                >
-                  Register to Vote <span aria-hidden="true">→</span>
-                </a>
-              </button>
-              <a
-                href="/resources"
-                className="rounded-md  border-2 border-white bg-neutral-50 px-3.5 py-2.5 text-sm font-semibold text-blue-600 shadow-sm hover:bg-blue-600 hover:text-white transition-all"
-              >
-                Resources <span aria-hidden="true">→</span>
-              </a>
-            </div>
+            <a
+              href="#about"
+              className="inline-block mt-6 rounded-full bg-white text-black px-5 py-3 font-semibold transition-all hover:bg-gray-200"
+            >
+              Learn More
+            </a>
           </div>
         </div>
       </div>
