@@ -42,7 +42,11 @@ export default function Footer() {
             <a className="link link-hover text-white">Privacy policy</a>
             <a className="link link-hover text-white">Cookie policy</a>
           </nav>
+
         </footer>
+        <div className="flex justify-center">
+          <p className='text-sm mt-10 -mb-7 text-center'>Website built with ❤️ by <a className='hover:text-white hover:transition-all underline underline-offset-2 text-blue-300' href='https://www.avibandi.com/'>Avi Bandi</a></p>
+          </div>
       </div>
     </div>
   );
